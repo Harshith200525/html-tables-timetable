@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html tables</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="up-bar">
+        <nav>
+          <img src="./assets/kalvi_logo.PNG" alt="kalvi_logo" id="kalvi-logo" />
+        </nav>
+        <div id="buttons">
+          <img
+            src="./assets/profile_logo.PNG"
+            alt="profile_logo"
+            id="profile-logo"
+          />
+          <h3>Student</h3>
+          <h3>Courses</h3>
+        </div>
+      </div>
+      <div id="main-table">
+        <h2><i>Time Table</i></h2>
+        <table>
+          <thead>
+            <th>Day/period</th>
+            <th>I<br />9am-10am</th>
+            <th>II<br />10am-11am</th>
+            <th>III<br />11.15am-12.15pm</th>
+            <th>IV<br />12.15pm-1.15pm</th>
+            <th>1.15pm-2.00pm</th>
+            <th>V<br />2.00pm-5.00pm</th>
+            <th>VI<br />5.30pm-6.30pm</th>
+          </thead>
+          <tr>
+            <td><b>Monday</b></td>
+            <td>subject2</td>
+            <td>subject4</td>
+            <td>subject6</td>
+            <td>subject8</td>
+            <td rowspan="6" id="lunch">
+                <span>L</span>
+                <br>
+                <span>U</span>
+                <br>
+                <span>N</span>
+                <br>
+                <span>C</span>
+                <br>
+                <span>H</span>
+                <br>
+            </td>
+            <td>subject1</td>
+            <td>subject5</td>
+          </tr>
+          <tr>
+            <td><b>Tuesday</b></td>
+            <td>subject8</td>
+            <td>subject2</td>
+            <td>subject6</td>
+            <td>subject3</td>
+            <td>subject4</td>
+            <td>subject7</td>
+          </tr>
+          <tr>
+            <td><b>Wednesday</b></td>
+            <td>subject4</td>
+            <td>subject5</td>
+            <td>subject3</td>
+            <td>subject1</td>
+            <td>subject2</td>
+            <td>subject6</td>
+          </tr>
+          <tr>
+            <td><b>Thursday</b></td>
+            <td>subject1</td>
+            <td>subject2</td>
+            <td>subject6</td>
+            <td>subject5</td>
+            <td>subject3</td>
+            <td>subject8</td>
+          </tr>
+          <tr>
+            <td><b>Friday</b></td>
+            <td>subject8</td>
+            <td>subject4</td>
+            <td>subject5</td>
+            <td>subject6</td>
+            <td>subject2</td>
+            <td>subject1</td>
+          </tr>
+          <tr>
+            <td><b>Saturday</b></td>
+            <td>subject2</td>
+            <td>subject6</td>
+            <td>subject4</td>
+            <td>subject3</td>
+            <td>subject1</td>
+            <td>subject7</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
